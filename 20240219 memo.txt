@@ -1,0 +1,82 @@
+sebaek@gmail.com
+
+백승은 강사님
+
+(SSR) =Server Side Rendering
+(CSR) =Client Side Rendering
+Spring Framework
+Spring Boot
+SQL
+Git
+Github
+AWS
+
+public class Main { 
+ public static void main(String[] args) {
+System.out.println("Hello World!");
+}
+}
+
+
+d2conding = 글꼴
+
+
+
+sout 단축기 = System.out.println();
+
+main + tap = public static void main(String[] args) {}
+
+shift + enter = 단위 변경
+
+폴더 = 패키지
+
+ 변수 : varialble
+ 값을 저장하는 공간의 이름
+ 변수 선언: 저장공간을 만듬
+ 변수 선언 하는 법 : 타입명 변수명
+ex) int a;   // int 타입의 저장공간 마련, 공간의 이름은 a
+
+ 변수에 값 저장 (assignment, 할당, 대입)
+ 변수명 = 값
+
+ 변수명에 사용 할 수 있는 문자들
+         영문 대소문자, 숫자, $, _
+         숫자로 시작 할 수 없다.
+        int c;
+        int C;
+        int $;
+        int c_d;
+        int _e;
+변수명 작성 관습
+소문자로 시작
+여러단어의 조합이면 각단어의 앞글자만 대문자
+lowerCamelCase  (낙타 모양)
+
+        int age;
+        int ageOfJames;
+        int address;
+        int addressofJane;   // 관습 ok
+        int adress_of_jane;  // 관습 x
+
+       int age; // 같은 변수명을 다시 선언 할 수 없음
+자바의 키워드(예약어)는 변수명으로 사용 할 수 없음
+
+ ex)    int public;
+        int float;
+        int int; 
+
+compile error :  
+
+runtime error :  실행 해봐야암
+
+변수 할당 줌으로서 x 와 y 의 변환
+
+int x = 3;
+int y = 5;
+        System.out.println("x :" + x + ", y :" + y);
+
+int temp = x;
+ x = y;
+ y = temp;
+        System.out.println("x :" + x + ", y :" + y);
+
