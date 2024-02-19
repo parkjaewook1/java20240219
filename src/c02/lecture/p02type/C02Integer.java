@@ -23,6 +23,7 @@ public class C02Integer {
 
 
 
-        //byte, short
+        //내일은 byte, short 배울 예정
+        //
     }
 }
