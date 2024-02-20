@@ -11,8 +11,7 @@ public class C01Type {
         // 1-3 논리
         //      *boolean
         // 1-4 문자
-        //      char
-
+        //      char  (2 byte)
 
 
         // 2. 참조타입(reference type)

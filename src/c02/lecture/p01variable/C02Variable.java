@@ -18,15 +18,24 @@ public class C02Variable {
 
         //여러 변수 선언, 값 할당을 한 명령문에서 작성 가능
         int g = 11, h = 12, i = 13;
-                                                                    //int g = 11;
-                                                                    // int h = 12;
-                                                                    // int i = 13;
+        //int g = 11;
+        // int h = 12;
+        // int i = 13;
 
         // 다른 변수의 값을 대입하는 것 가능;
         int j = 14;
         int k = j;
 
 
+        int x = 0b1011;
+        int y = 5;
+
+
+        System.out.println("x :" + x + ",  y :" + y);
+
 
     }
+
+
 }
+

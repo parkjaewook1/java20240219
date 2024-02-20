@@ -1,5 +1,7 @@
 package c02.lecture.p01variable;
 
+import java.security.spec.RSAOtherPrimeInfo;
+
 public class C01Variable {
     public static void main(String[] args) {
         System.out.println();
@@ -14,7 +16,7 @@ public class C01Variable {
         // 변수에 값 저장 (assignment, 할당, 대입)
         // 변수명 = 값
 
-        a=10;
+        a = 10;
 
         System.out.println(a);
 
@@ -31,8 +33,7 @@ public class C01Variable {
         b = 100;
 
 
-
-        System.out.println(a+b);
+        System.out.println(a + b);
 
         // 변수명에 사용 할 수 있는 문자들
         // 영문 대소문자, 숫자, $, _
@@ -59,18 +60,6 @@ public class C01Variable {
         /* int public;
         int float;
         int int; */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
