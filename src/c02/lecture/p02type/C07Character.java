@@ -27,5 +27,7 @@ public class C07Character {
         char r = 12312;
         System.out.println("q = " + q);
         System.out.println("r = " + r);
+
+
     }
 }
