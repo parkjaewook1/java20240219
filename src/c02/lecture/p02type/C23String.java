@@ -30,5 +30,21 @@ public class C23String {
 //        System.out.println(i);
 
         //2. 기본타입 -> String 변환
+
+        int k = 356;
+        double l = 3.14;
+
+        String m = String.valueOf(k);
+        String n = String.valueOf(l);
+
+        System.out.println(k);
+        System.out.println(l);
+
+        String o = k + "";  // String과 다른 타입간 더하기(+) 연산의 결과는 String임
+        String p = l + "";
+
+        System.out.println("o = " + o);
+        System.out.println("p = " + p);
+
     }
 }
