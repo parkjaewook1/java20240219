@@ -2,6 +2,10 @@ package c03.sec01;
 
 public class IncreaseDecreaseOperatorExample {
     public static void main(String[] args) {
+
+        // x++ 이전값 저장  ++x 1상승 후 값 저장
+        // --x 이전값 저장  --x 1하락 후 값 저장
+
         int x = 10;
         int y = 10;
         int z;
@@ -31,5 +35,7 @@ public class IncreaseDecreaseOperatorExample {
         System.out.println("z = " + z);
         System.out.println("x = " + x);
         System.out.println("y = " + y);
+
+
     }
 }

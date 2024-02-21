@@ -18,9 +18,9 @@ public class ScannerExample {
         int result = x + y;
         System.out.println("x + y = " + result);
         System.out.println();
-        
+
         while (true) {
-            System.out.print("입력 문쟈열: ");
+            System.out.print("입력 문자열: ");
             String data = scanner.nextLine();
             if (data.equals("q")) {
                 break;
