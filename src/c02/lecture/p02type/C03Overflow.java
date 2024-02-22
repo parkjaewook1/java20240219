@@ -12,6 +12,7 @@ public class C03Overflow {
         long c = a + b;
         System.out.println("c = " + c);
 
+
         // overflow를 방지하려면
         // 적절한 data type을 선택해야함
     }

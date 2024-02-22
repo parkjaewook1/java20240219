@@ -32,7 +32,7 @@ public class C19var {
         var j = 3.14;
 
 
-        List<Map<String, Integer>> list1 = new ArrayList<Map<String, Integer>>();
+        List<Map<String, Integer>> list1 = new ArrayList<>();
         List<Map<String, Integer>> list2 = new ArrayList<>();
         var list3 = new ArrayList<Map<String, Integer>>();
 
