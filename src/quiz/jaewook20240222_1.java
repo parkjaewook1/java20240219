@@ -62,6 +62,12 @@ public class jaewook20240222_1 {
             xx.remove("b");
             System.out.println(xx);
 
+            int n = 10;
+            i = i * 2;
+            for (i = 2; i <= n; i++) {
+                System.out.println(n);
+            }
+
         }
     }
 }
