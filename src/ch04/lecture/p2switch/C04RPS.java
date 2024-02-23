@@ -1,12 +1,13 @@
-package ch04.lecture.p1if;
+package ch04.lecture.p2switch;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class C06RPS {
+public class C04RPS {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
+
 
         System.out.print("가위(1),바위(2),보(3) 를 선택하세요.\n");
 
@@ -17,22 +18,19 @@ public class C06RPS {
 //        System.out.println("user = " + user);  // 가위, 바위, 보
 //        System.out.println("computer = " + computer);
 
-        if (user == 1) {
-            System.out.println("가위");
-        } else if (user == 2) {
-            System.out.println("바위");
-        } else {
-            System.out.println("보");
+        switch (user) {
+            case 1 -> System.out.println("가위");
+            case 2 -> System.out.println("바위");
+            case 3 -> System.out.println("보");
         }
 
 
-        if (computer == 1) {
-            System.out.println("가위");
-        } else if (computer == 2) {
-            System.out.println("바위");
-        } else if (computer == 3) {
-            System.out.println("보");
+        switch (computer) {
+            case 1 -> System.out.println("가위");
+            case 2 -> System.out.println("바위");
+            case 3 -> System.out.println("보");
         }
+
 
         if (user > computer) {
             System.out.println("승리");
