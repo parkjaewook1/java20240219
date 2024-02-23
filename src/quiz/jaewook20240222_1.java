@@ -10,6 +10,7 @@ public class jaewook20240222_1 {
         ArrayList<String> qk = new ArrayList<String>();
 //        qk.add(100);
         qk.add("빵");
+        qk.add("소금");
         for (int i = 0; i < qk.size(); i++) {
             System.out.println(qk.get(i));
         }
