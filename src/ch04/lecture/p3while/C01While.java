@@ -14,7 +14,16 @@ public class C01While {
         while (true) {
             System.out.println("statement 2");
             System.out.println("statement 3");
+            break;
         }
-//        System.out.println("statement 4");
+        int a = 0;
+        for (a = 0; a < 20; a++) {
+            System.out.println(a);
+        }
+
     }
+
+
 }
+
+
