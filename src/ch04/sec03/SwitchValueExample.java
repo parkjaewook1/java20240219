@@ -17,6 +17,8 @@ public class SwitchValueExample {
                 score1 = 60;
         }
         System.out.println("score1 = " + score1);
+        
+        //java 12 이후
 
         int score2 = switch (grade) {
             case "A" -> 100;
