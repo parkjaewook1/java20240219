@@ -11,10 +11,12 @@ public class C11Array {
         arr[0] = 23;
         arr[1] = 45;
         arr[2] = 98;
-
+        
         System.out.println("------------------");
-        for (int item : arr) {
-            System.out.println(item);
+
+        for (int i = 0; i < arr.length; i++) {
+
+
         }
 
     }
