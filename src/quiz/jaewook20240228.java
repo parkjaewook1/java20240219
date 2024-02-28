@@ -1,16 +1,18 @@
 package quiz;
 
+import java.util.Arrays;
+
 public class jaewook20240228 {
     public static void main(String[] args) {
-        String[] strlist = {"We", "are", "the", "world"};
-        int x = strlist.length;
-        int[] y = new int[x];
+        String[] strlist = {"operation", "cwal", "show me the money"};
+        int[] answer = {};
+        answer = new int[strlist.length];
 
-        for (int i = 0; i < x; i++) {
-            y[i] = strlist[i].length();
+        for (int i = 0; i < strlist.length; i++) {
+            answer[i] = strlist[i].length();
         }
 
-        System.out.println(y);
+        System.out.println(Arrays.toString(answer));
     }
 }
 
