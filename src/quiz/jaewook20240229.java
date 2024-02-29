@@ -1,5 +1,7 @@
 package quiz;
 
+import java.util.Scanner;
+
 public class jaewook20240229 {
     public static void main(String[] args) {
 //        String my_string = "happy";
@@ -8,11 +10,16 @@ public class jaewook20240229 {
 //            answer += my_string.charAt(i);
 //        }
 //        System.out.println(answer);
-        String my_string = "programmers";
-        String answer = "";
-        String alp = "P";
-        String result = my_string.replace("p", alp);
-        System.out.println(result);
+        int age;
+        String name;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("이름");
+        name = scanner.nextLine();
+        System.out.println("나이");
+        age = scanner.nextInt();
+        System.out.printf("나이는 %d입니다.%n", age);
+        System.out.printf("이름은 %s입니다.%n", name);
+
     }
 
 }
