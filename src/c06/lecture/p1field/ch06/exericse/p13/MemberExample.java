@@ -6,6 +6,6 @@ public class MemberExample {
         member1.name = "son";
 
         Member member2 = new Member();
-        member1.name = "son";
+        member2.name = "son";
     }
 }
