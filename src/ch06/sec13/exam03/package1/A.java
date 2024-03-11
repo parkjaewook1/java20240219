@@ -2,6 +2,7 @@ package ch06.sec13.exam03.package1;
 
 public class A {
     public int field1;
+    protected String field;
     int field2;
     private int field3;
 
