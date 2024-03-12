@@ -19,10 +19,7 @@ public class Anonymous {
     }
 
 
-
-    8
-
-void method2(Vehicle v) {
-    v.run();
-}
+    void method2(Vehicle v) {
+        v.run();
+    }
 }
