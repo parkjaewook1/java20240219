@@ -25,6 +25,7 @@ public class C08String {
         System.out.println(s instanceof Constable);
         System.out.println(s instanceof ConstantDesc);
 
+
         System.out.println(charSequence instanceof String);
         System.out.println(charSequence instanceof CharSequence);
         System.out.println(charSequence instanceof Constable);
