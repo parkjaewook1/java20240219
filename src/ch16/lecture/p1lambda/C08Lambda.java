@@ -1,12 +1,15 @@
-package ch09.lecture.p2anonymous;
+package ch16.lecture.p1lambda;
 
-public class C08Lamda {
+public class C08Lambda {
     public static void main(String[] args) {
-        C08MyInterface obj = () -> System.out.println("재정의 1");
+        C08MyInterface obj = () -> {
+            System.out.println("재정의 1");
+        };
 
 
         obj.method();
     }
+
 }
 
 //추상 메소드가 하나인 인터페이스의
