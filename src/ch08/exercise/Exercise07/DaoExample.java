@@ -7,10 +7,12 @@ public class DaoExample {
 //        dao.insert();
 //        dao.update();
 //        dao.delete();
+
     }
 
     public static void main(String[] args) {
         dbwork(new OracleDao());
         dbwork(new MySqlDao());
+
     }
 }
