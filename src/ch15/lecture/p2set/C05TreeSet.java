@@ -1,4 +1,4 @@
-package ch15.lecture.p1list.p2set;
+package ch15.lecture.p2set;
 
 import java.util.Set;
 import java.util.TreeSet;
