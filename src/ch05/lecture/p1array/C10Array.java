@@ -21,5 +21,8 @@ public class C10Array {
         arr6[0] = 11;               //int[] arr6 = {11, 23}
         arr6[1] = 23;
 //        arr6[2] = 45;  // x
+
+
     }
+
 }

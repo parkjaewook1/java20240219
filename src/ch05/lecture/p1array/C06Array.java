@@ -7,7 +7,7 @@ public class C06Array {
 
 
         // 배열의 길이
-        System.out.println("arr.lengt =" + arr.length);
+        System.out.println("arr.length =" + arr.length);
         System.out.println("-----------------------------");
 
 
